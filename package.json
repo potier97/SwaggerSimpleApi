@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
+    "postbuild": "copyfiles -f ./src/public/*.html  build/public",
     "start": "node build/index.js",
     "dev": "nodemon"
   },
