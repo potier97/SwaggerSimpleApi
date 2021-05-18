@@ -1,0 +1,33 @@
+
+### GET ALL TAKS
+GET http://localhost:3000/tasks
+
+
+### GET LENGTH TAKS
+GET http://localhost:3000/tasks/count
+
+
+### ADD NEW TASK
+POST http://localhost:3000/tasks
+Content-Type: application/json
+
+{
+    "name": "Primera Tarea",
+    "description": "Descripcion de la primera tarea"
+}
+
+### GET TASK BY ID
+GET http://localhost:3000/tasks/P_kzRbeD6ThfqBc8mjcmH
+
+
+### UPDATE BY ID
+PUT http://localhost:3000/tasks/tx13TGsvfd9VP54oukJ4l
+Content-Type: application/json
+
+{
+    "name": "Tercera Tarea",
+    "description": "Descripcion de la tercera tarea"
+}
+
+### DELETE BY ID
+DELETE http://localhost:3000/tasks/tx13TGsvfd9VP54oukJ4l
