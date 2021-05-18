@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Swagger - Api</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <style>
+      html,
+      body {
+        height: -webkit-fill-available;
+        width: -webkit-fill-available;
+        margin: 0;
+        padding: 0;
+        display: inherit;
+      }
+      .container {
+        height: 100%;
+        background: #e4e4e4;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Api de Tareas construida en Node y lowDB</h1>
+      <h3>Documentación de la api en: <a href="/docs"> Swagger</a></h3>
+      <h4>Endpoint de la Api en /tasks</h4>
+      <h4>Get /tasks -> Lista de todas las tareas</h4>
+      <h4>Get /tasks/coun -> Cantidad de tareas</h4>
+      <h4>Post /tasks/:id -> Obtener una tarea por el Id</h4>
+      <h4>Delete /tasks/:id -> Eliminar una tarea por el Id</h4>
+      <h4>Put /tasks/:id -> Actualizar una tarea por el Id</h4>
+    </div>
+  </body>
+</html>
